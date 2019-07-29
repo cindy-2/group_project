@@ -1,7 +1,12 @@
 body {
-  background-color: lightblue;
+  background-image: url("../sea.jpg"); /* The image used */
+ background-color: lightblue; /* Used if the image is unavailable */
+ height: 700px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover;
   color:white;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -9,8 +14,12 @@ body {
 }
   h1 {
     font-size: 25em;
+    margin-top: 4rem;
 }
 p {font-size: 3rem;
     font-weight: 500;
     margin-top: 10rem;
+}
+.lead{
+  font-size: 1.6em;
 }
