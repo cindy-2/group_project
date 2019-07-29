@@ -10,3 +10,7 @@ body {
   h1 {
     font-size: 25em;
 }
+p {font-size: 3rem;
+    font-weight: 500;
+    margin-top: 10rem;
+}
