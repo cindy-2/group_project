@@ -23,6 +23,12 @@ p {
     font-weight: 500;
     margin-top: 10rem;
 }
+.col-sm {
+  font-weight: 700;
+  font-size: 1.15em;
+  font-family: verdana;
+  font-family: sans-serif;
+}
 .lead{
   font-size: 1.6em;
 }
@@ -40,7 +46,7 @@ img {
   }
   /
   .col-sm img {
-    transition: transform .5s ease;
+    transition: transform .3s ease;
   }
 
   .col-sm:hover img {
