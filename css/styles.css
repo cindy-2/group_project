@@ -1,9 +1,9 @@
 body {
-  background-image: url("../sea.jpg"); /* The image used */
- background-color: lightblue; /* Used if the image is unavailable */
- height: 700px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
+  background-image: url("../sea.jpg");
+ background-color: lightblue;
+ height: 700px;
+ background-position: center;
+ background-repeat: no-repeat;
  background-size: cover;
   color:white;
   padding-top: 1rem;
@@ -17,7 +17,9 @@ body {
     font-size: 25em;
     margin-top: 67px;
 }
-p {font-size: 3rem;
+p {
+    font-family: verdana;
+    font-size: 3rem;
     font-weight: 500;
     margin-top: 10rem;
 }
@@ -25,3 +27,13 @@ p {font-size: 3rem;
   font-size: 1.6em;
 }
 #fonts{font-family: fantasy;}
+img {
+    display: flex;
+    padding: 20px;
+    margin-top:  50 auto;
+    margin-bottom: 50 auto;
+    border-radius: 100px;
+  }
+.class-sm {
+  font-size: 5em
+}
