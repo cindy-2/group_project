@@ -34,6 +34,15 @@ img {
     margin-bottom: 50 auto;
     border-radius: 100px;
   }
-.class-sm {
-  font-size: 5em
-}
+  .col-sm {
+    height: 100x; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  /
+  .col-sm img {
+    transition: transform .5s ease;
+  }
+
+  .col-sm:hover img {
+    transform: scale(1.5);
+  }
