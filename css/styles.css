@@ -53,8 +53,42 @@ img {
     transform: scale(1.5);
   }
   h2 {
-    font-size: 50px;
+    font-size: 70px;
   }
 h3 {
+  font-size: 40px;
   color:   #005580;
+}
+p1 {
+  margin-top: 10px auto;
+  font-size: 2.5em;
+height:20px;
+padding: 2px;
+}
+p2 {
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #005580;
+height:20px;
+padding: 2px;
+}
+ul1 {
+  margin-top: 2px;
+  font-size: 2em;
+  color: #005580;
+height:20px;
+padding: 20px;
+}
+ul1 {
+      list-style: none;
+      list-style-type: circle;
+}
+li1 {
+    margin: 0 10px;
+    transition: 1s ease;
+}
+li1:hover {
+    font-size: 2em;
+    transition: 3s ease;
 }
